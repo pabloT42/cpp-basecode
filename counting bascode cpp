@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main() {
+	srand(time(NULL));
+
+	int num = rand()%50+1;
+
+
+	for (int i = num; i > 0; i -= 1)
+		cout << i << " ";
+
+	for (int i = 0; i <= num; i++)
+		cout << i << " ";
+
+}
