@@ -1,0 +1,18 @@
+#include<iostream>
+#include<windows.h>
+using namespace std;
+int main() {
+	// variables for three numbers
+	int freq;
+	int dur;
+	int n;
+	// keyboard input
+	cout << "please enter three numbers(frquency, duration and number):" << endl;
+	cin >> freq;
+	cin >> dur;
+	cin >> n;
+
+	for (int i = 0; i < n; i++)
+		Beep(freq, dur);
+
+}
